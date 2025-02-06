@@ -1,4 +1,7 @@
-baseURL: 'https://ehri.github.io/ehri-kg-website/'
+---
+
+# BaseURL can be overridden on deployment with the actual value
+baseURL: 'http://www.example.com'
 languageCode: en-gb
 title: EHRI-KG
 theme: ehri-nn
