@@ -36,6 +36,13 @@ params:
       logo: 'eu-funded-beige-text.svg'
       url: 'https://ec.europa.eu/info/departments/research-and-innovation_en'
 
+  meta:
+    title: "EHRI-KG | The EHRI Knowledge Graph"
+    image: images/ehri-logo-large.png
+    description: >-
+      EHRI-KG is an OSCARS-funded project to create a Linked Open Data (LOD) Knowledge
+      Graph derived from the data in the EHRI Portal.
+
 markup:
   # Configure syntax highlighting for the examples on the `training` page
   highlight:
