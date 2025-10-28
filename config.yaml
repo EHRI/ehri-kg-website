@@ -74,9 +74,12 @@ menu:
     - identifier: deliverables
       pageRef: deliverables
       weight: 50
+    - identifier: news
+      pageRef: news
+      weight: 60
     - identifier: contact
       pageRef: contact
-      weight: 60
+      weight: 70
   footer:
     - identifier: about
       pageRef: about
@@ -88,6 +91,9 @@ menu:
     - identifier: lodview
       pageRef: 'https://lod.ehri-project-test.eu/'
       weight: 10
+    - identifier: ontology
+      pageRef: 'http://lod.ehri-project-test.eu/ontology'
+      weight: 20
     # - identifier: document_blog
     #   pageRef: 'https://blog.ehri-project.eu/'
     #   weight: 20

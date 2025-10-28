@@ -1,9 +1,17 @@
 ---
 
+- id: ontology
+  title: EHRI-KG Ontology
+  url: http://lod.ehri-project-test.eu/ontology
+  icon: article
+  image: ehri-ontology-crop.svg
+  content: |
+    The ontology defines the data model used by the EHRI Knowledge Graph for the representation of the information hosted in the EHRI Portal. It does so by extending RiC-O v1.0.2 and reusing some of the schema.org concepts. 
+
 - id: lodview
   title: EHRI-KG Lodview interface
   url: https://lod.ehri-project-test.eu/
   icon: meeting_room
-  image: ehri-kg-banner.jpeg
+  image: lodview-ehri.png
   content: |
     The EHRI-KG Lodview interface offers an easy-to-use website to navigate over the KG entities. You will also find some example SPARQL queries that will help in answering more complex research questions.
