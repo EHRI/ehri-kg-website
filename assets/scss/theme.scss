@@ -104,3 +104,51 @@ blockquote p {
     filter: invert(1);
   }
 }
+
+.footer-content {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+          "headings"
+          "menu1"
+          "menu2"
+          "menu3"
+          "social"
+          "partners"
+          "doi"
+          "copyright";
+}
+
+.footer-doi {
+  grid-area: doi;
+  margin-bottom: 2rem;
+  font-size: var(--font-size-sm);
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .footer-content {
+    grid-template-areas:
+        "headings menu1 menu2 social"
+        ". menu3 menu2 . "
+        "partners partners . ."
+        "doi doi copyright copyright";
+  }
+
+  .footer-doi {
+    align-self: end;
+    margin: 2rem 0 0 0;
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  .footer-content {
+    grid-template-areas:
+        "headings menu1 menu2 menu3 social"
+        ". partners partners . ."
+        "doi doi . copyright copyright";
+  }
+
+  .footer-doi {
+    margin: 0;
+  }
+}
+
