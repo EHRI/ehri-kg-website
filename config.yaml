@@ -36,6 +36,8 @@ params:
       logo: 'eu-funded-beige-text.svg'
       url: 'https://ec.europa.eu/info/departments/research-and-innovation_en'
 
+  doiUrl: https://doi.org/10.82169/3qwz-1558
+
   meta:
     title: "EHRI-KG | The EHRI Knowledge Graph"
     image: images/ehri-logo-large.png
