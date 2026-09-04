@@ -16,10 +16,10 @@ params:
   blueskyUrl: 'https://bsky.app/profile/ehri-project.eu'
 
   # reference an image here (`images/example.svg`) to replace the header logo
-  headerLogo: # -
+  headerLogo: images/ehri-logo-default.svg
 
   # reference an image here (`images/example.svg`) to replace the footer logo
-  footerLogo: # -
+  footerLogo: images/ehri-logo-reverse-beige.svg
 
   # `contactName` and `contactEmail` are used to populate the contact page.
   contactName: EHRI-KG
