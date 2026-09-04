@@ -15,6 +15,12 @@ params:
   linkedinUrl: 'https://www.linkedin.com/company/ehri-european-holocaust-research-infrastructure'
   blueskyUrl: 'https://bsky.app/profile/ehri-project.eu'
 
+  # reference an image here (`images/example.svg`) to replace the header logo
+  headerLogo: # -
+
+  # reference an image here (`images/example.svg`) to replace the footer logo
+  footerLogo: # -
+
   # `contactName` and `contactEmail` are used to populate the contact page.
   contactName: EHRI-KG
   contactEmail: ehri-kg@ehri-project.eu
@@ -61,7 +67,8 @@ taxonomies:
   - name: tag
     weight: 2
 
-# Menu configuration. Labels are in the i18n folders:
+# Menu configuration. Labels, which should correspond to the
+# menu identifier keys, are in the i18n folders:
 menu:
   main:
     - identifier: about
@@ -107,8 +114,7 @@ menu:
     #   weight: 40
 
 
-# Language overrides for menu config. TODO: figure out
-# how not to duplicate things in e.g. the services menu
+# Language overrides for menu config.
 languages:
   en:
     title: EHRI-KG

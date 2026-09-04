@@ -1,5 +1,5 @@
 ---
-title: Contact EHRI
+title: "Contact EHRI"
 type: contact
 thanks: true
 ---
