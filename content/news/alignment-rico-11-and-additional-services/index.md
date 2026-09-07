@@ -17,19 +17,19 @@ However, this is only part of what kept us busy during the last year. In paralle
 
 * OpenAPI REST API: If SPARQL is not your cup of tea, but nevertheless want to re-use EHRI-KG's data in your application, we have you covered. Using grlc, a CLARIAH-hosted software library that converts a set of SPARQL queries in a fully-fledged REST API compliant with the OpenAPI specification, we have deployed a new REST API for the EHRI-KG. This API exposes a number of endpoints covering the most frequent consult operations, and some of them can be further parametrised.
 
-# Data mapping architecture
+## Data mapping architecture
 Despite not being a new service, we have invested a lot of effort on streamlining our data mapping architecture, not only to adapt the conversions to RiC-O 1.1 and our EHRI ontology 0.2.0, but also to make it more resilient, ensure the validity of the data and monitor changes on the EHRI Portal, so that they are incrementally included in the EHRI-KG. Therefore, we are moving from a batch generated and static KG to a living one that is fully synchronised with the EHRI Portal data.
 
 If you want to know more, you can read our recent paper, published and presented at the 7th International Workshop on Knowledge Graph Construction co-located with 23rd Extended Semantic Web Conference (ESWC 2026) (see [Deliverables](../../deliverables) section).
 
-# Following steps
+## Following steps
 While the vast majority of the infrastructure is already implemented, we still have two more lines of work for the following months. 
 
 On the one hand, before the end of the project, the EHRI-KG will be moved to a production server and IRIs will be consolidated (no need to worry, we will implement the necessary redirections). From this point forward, the EHRI-KG will be integrated as a new service of the EHRI-ERIC and the infrastructure sustained beyond this project timeline.
 
 On the other hand, following recent advancements in AI and hybrid techniques combining LLMs and KGs, we are experimenting with new methods of accesing and consulting the resulting KG, so the information contained within can be more easily exploited by all kinds of users, and researchers can be more productive when using this type of data. If you are interested in this new line of work, stay tuned as we will share more soon!
 
-# Links to main outputs:
+## Links to main outputs:
 * EHRI Ontology 0.2.0: [https://lod.ehri-project-test.eu/ontology/0.2.0](https://lod.ehri-project-test.eu/ontology/0.2.0)
 * Sampo-UI: [https://lod.ehri-project-test.eu/sampo](https://lod.ehri-project-test.eu/sampo)
 * OpenAPI REST API: [https://lod.ehri-project-test.eu/openapi/api-local](https://lod.ehri-project-test.eu/openapi/api-local)
