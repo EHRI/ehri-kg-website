@@ -1,12 +1,37 @@
 ---
 
+- id: sampo-ui
+  title: Sampo-UI
+  url: https://lod.ehri-project-test.eu/sampo
+  icon: web
+  image: sampo-screenshot.png
+  content: |
+    Sampo-UI allows users to navigate a Knowledge Graph using a faceted search as well as generating different types of visualisations and graphics. This software has been adapted, configured and customised to work with the EHRI-KG. 
+    If you are not an expert on semantic technologies, this is your starting point.
+
+- id: sparql
+  title: SPARQL endpoint
+  url: https://lod.ehri-project-test.eu/query
+  icon: search
+  image: sparql-screenshot.png
+  content: |
+    The SPARQL endpoint allows expert users and agents to perform arbitrary queries against the EHRI-KG triple store. It is also the backbone for the rest of the services and tools.
+
+- id: openapi
+  title: OpenAPI REST API
+  url: https://lod.ehri-project-test.eu/openapi/api-local
+  icon: cable
+  image: grlc-ehri-screenshot.png
+  content: |
+    If you do not want to deal with SPARQL and prefer a good-old REST API, you can try our OpenAPI-compliant REST API, built using grlc.
+
 - id: ontology
   title: EHRI-KG Ontology
   url: http://lod.ehri-project-test.eu/ontology
   icon: article
   image: ehri-ontology-crop.svg
   content: |
-    The ontology defines the data model used by the EHRI Knowledge Graph for the representation of the information hosted in the EHRI Portal. It does so by extending RiC-O v1.0.2 and reusing some of the schema.org concepts. 
+    The ontology defines the data model used by the EHRI Knowledge Graph for the representation of the information hosted in the EHRI Portal. It does so by extending RiC-O v1.1 and reusing some of the schema.org concepts. 
 
 - id: lodview
   title: EHRI-KG Lodview interface
